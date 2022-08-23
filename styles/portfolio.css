@@ -53,6 +53,25 @@ h2 {
     margin-top: 24px;
 }
 
+.about-section {
+    padding: 160px 20px;  
+}
+
+.about-section-content{
+    margin: 30px;
+}
+
+.about-section h1 {
+    font-size: 64px;
+    line-height: 85px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-family: var( --default-font-family);
+
+}
+
 .btn-branding {
 background: var(--branding-color);
 border-radius: 4px;
@@ -95,6 +114,11 @@ padding: 18px 46px;
         margin: 10px;
     } 
     .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-section {
         padding: 0;
         text-align: center;
     }
