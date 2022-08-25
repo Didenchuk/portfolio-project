@@ -31,6 +31,35 @@ h2 {
     font-size: 64px;
 }
 
+nav {
+    padding: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    line-height: 42px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #272142;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a  {
+    color: var(--branding-color);
+}
+
+.logo {
+    max-height: 40px ;
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -137,5 +166,9 @@ padding: 18px 46px;
     .content {
         padding: 0;
         text-align: center;
+    }
+
+    nav a{
+        font-size: 14px;
     }
 }
